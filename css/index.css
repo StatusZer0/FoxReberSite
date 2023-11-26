@@ -1,0 +1,66 @@
+body {
+	background: rgb(45, 45, 45);
+}
+
+hr {
+	color: rgb(100, 100, 100);
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+}
+
+p {
+	color: rgb(160, 160, 160);
+}
+
+h2 {
+	color: rgb(180, 180, 180);
+}
+.header {
+	text-align: center;
+	color: white;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: rgb(50, 50, 50);
+	border: 2px solid rgb(100, 100, 100);
+	border-radius: 25px;
+	display: block;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+	width: 100%;
+}
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: rgb(130, 130, 130);
+	color: rgb(0, 0, 0);
+}
+
+button {
+	background-color: rgb(100, 100, 100);
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 25px;
+}
